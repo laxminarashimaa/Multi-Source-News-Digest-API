@@ -4,7 +4,7 @@ from google import genai
 import json
 import os
 
-client = genai.Client(api_key="AIzaSyCEhoNgCLnYDmblesac7sfRlJOICUgDT00")
+client = genai.Client(api_key=os.environ.get("AIzaSyCnXuDyZvdsWle0IE1GZQ9Htwvsau5Q7wA"))
 
 def fetch_raw_news():
     articles = []
