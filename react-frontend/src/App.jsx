@@ -4,7 +4,7 @@ import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recha
 import { Newspaper, ExternalLink, Activity, Clock3, Bookmark, Share2 } from 'lucide-react';
 import './App.css';
 
-const API_URL = "http://localhost:8000/digest";
+const API_URL = "https://multi-source-news-digest-api-ea3y.onrender.com/digest";
 
 // A simple utility to simulate relative dates from an article's illustrative ID
 const getIllustrativeRelativeTime = (index) => {
